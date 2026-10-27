@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Idea Board",
+    "slug": "idea-board-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "package": "com.ste.ideaboard"
+      },
+      "package": "com.stesan81.ideaboardnative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6fe9d66d-886d-407d-9a0b-3069ba7453a2"
+      }
+    }
+  }
+}

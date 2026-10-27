@@ -1,0 +1,10 @@
+import{ View, Text} from 'react-native';
+export default function FilterBar(){
+    return(
+        <View>
+            <Text>Tutte</Text>
+            <Text>Progetti</Text>
+            <Text>DnD</Text>
+        </View>
+    );
+}
